@@ -21,7 +21,7 @@ body {
 .container {
     background-color: rgba(30, 30, 30, 0.9);
     border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.185);
     overflow: hidden;
     width: 90%;
     max-width: 1200px;
@@ -64,7 +64,7 @@ body {
     50% {
         transform: scale(1.05) translateY(-10px);
         opacity: 0.8;
-        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+        box-shadow: 0 12px 40px rgba(14, 8, 8, 0.61);
     }
 }
 
@@ -313,11 +313,11 @@ body {
 
 /* Estilos para la descripción */
 .description {
-    background-color: rgba(45, 45, 45, 0.9);
+    background-color: rgba(36, 34, 34, 0.9);
     border-radius: 15px;
     padding: 20px;
     margin-top: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgb(27, 27, 27);
     color: #f1f1f1;
     animation: fadeIn 1s ease-out; /* Aplicar animación */
     animation-delay: 0.5s; /* Ajusta el retraso según sea necesario */
@@ -331,4 +331,23 @@ body {
 
 .description p {
     text-align: justify;
+}
+.contact-button {
+    text-align: center;
+    margin-top: 20px; /* Ajusta este valor según sea necesario */
+}
+
+.contact-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #300601;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: #52000e;
 }
